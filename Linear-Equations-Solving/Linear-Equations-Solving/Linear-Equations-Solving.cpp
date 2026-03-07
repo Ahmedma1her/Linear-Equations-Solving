@@ -1,6 +1,5 @@
     #include <iostream>
-#include <cctype>    
-#include <string>
+    #include <string>
 
     using namespace std;
 
@@ -56,21 +55,26 @@
                         number = number * 10 + (c - '0');
                         hasNumber = true;
                     }
-                    else if (isalpha(c))
+                    else if (c == 'x')
                     {
                         if (!hasNumber) number = 1;
 
-                        int idx = c - 'a';   // a=0, b=1, c=2 ...
+                        k++;
+                        int idx = 0;
+                        while (k < eq.length() && eq[k] >= '0' && eq[k] <= '9')
+                        {
+                            idx = idx * 10 + (eq[k] - '0');
+                            k++;
+                        }
+                        k--;
 
-                        coeff[i][idx] += sign * number * side;
+                        coeff[i][idx - 1] += sign * number * side;
 
-                        if (idx + 1 > vars)
-                            vars = idx + 1;
+                        if (idx > vars) vars = idx;
 
                         number = 0;
                         hasNumber = false;
                         sign = 1;
-                    
                     }
                     else if (c == '=')
                     {
@@ -204,9 +208,7 @@
                 if (!noSolution)
                 {
                     for (int i = 0; i < vars; i++)
-                    {
-                        cout << char('x' + i) << "=" << a[i][vars] << endl;
-                    }
+                        cout << "x" << i + 1 << "=" << a[i][vars] << endl;
                 }
 
                 for (int i = 0; i < n; i++)
