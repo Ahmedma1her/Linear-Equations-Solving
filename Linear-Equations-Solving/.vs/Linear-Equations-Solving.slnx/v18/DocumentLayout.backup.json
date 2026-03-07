@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Linear-Equations-Solving\\",
+  "WorkspaceRootPath": "D:\\linear equations project\\Linear-Equations-Solving\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4656624-4E18-4130-9B5D-A99B8086262D}|Linear-Equations-Solving\\Linear-Equations-Solving.vcxproj|C:\\Users\\Admin\\source\\repos\\Linear-Equations-Solving\\Linear-Equations-Solving\\Linear-Equations-Solving.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B4656624-4E18-4130-9B5D-A99B8086262D}|Linear-Equations-Solving\\Linear-Equations-Solving.vcxproj|D:\\linear equations project\\Linear-Equations-Solving\\Linear-Equations-Solving\\Linear-Equations-Solving.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B4656624-4E18-4130-9B5D-A99B8086262D}|Linear-Equations-Solving\\Linear-Equations-Solving.vcxproj|solutionrelative:Linear-Equations-Solving\\Linear-Equations-Solving.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Linear-Equations-Solving.cpp",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Linear-Equations-Solving\\Linear-Equations-Solving\\Linear-Equations-Solving.cpp",
+              "DocumentMoniker": "D:\\linear equations project\\Linear-Equations-Solving\\Linear-Equations-Solving\\Linear-Equations-Solving.cpp",
               "RelativeDocumentMoniker": "Linear-Equations-Solving\\Linear-Equations-Solving.cpp",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Linear-Equations-Solving\\Linear-Equations-Solving\\Linear-Equations-Solving.cpp*",
-              "RelativeToolTip": "Linear-Equations-Solving\\Linear-Equations-Solving.cpp*",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFgAAAATAAAAAAAAAA==",
+              "ToolTip": "D:\\linear equations project\\Linear-Equations-Solving\\Linear-Equations-Solving\\Linear-Equations-Solving.cpp",
+              "RelativeToolTip": "Linear-Equations-Solving\\Linear-Equations-Solving.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAFgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-28T14:36:13.903Z",
               "EditorCaption": ""

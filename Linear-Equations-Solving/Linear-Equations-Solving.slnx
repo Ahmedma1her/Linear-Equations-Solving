@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Linear-Equations-Solving/Linear-Equations-Solving.vcxproj" />
+  <Project Path="Linear-Equations-Solving/Linear-Equations-Solving.vcxproj" Id="b4656624-4e18-4130-9b5d-a99b8086262d" />
 </Solution>
