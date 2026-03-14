@@ -79,7 +79,7 @@
                     else if (c == '=')
                     {
                         rightSide = true;
-                        side = -1;       // everything after '=' treated as moved to LHS
+                        side = -1;       
                         number = 0;
                         sign = 1;
                     }
